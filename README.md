@@ -89,7 +89,8 @@ Create a `.env` file inside `server/` with your MongoDB URI and JWT secret befor
 | Name | Role |
 |---|---|
 | Tam Kapa | — |
-| Dawman Comfield Laskor | — |
+| Udit Bora | Developer |
+| Dawman Comfield Laskor | Developer |
 | Tusanta Teron | — |
 | Monojyoti Dey | — |
 
