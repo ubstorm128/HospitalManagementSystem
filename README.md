@@ -72,17 +72,25 @@ HospitalManagementSystem/
 # Clone the repository
 git clone https://github.com/ubstorm128/HospitalManagementSystem.git
 cd HospitalManagementSystem
-
-# Install backend dependencies
-cd server
-npm install
-
-# Install frontend dependencies
-cd ../client
-npm install
 ```
 
-Create a `.env` file inside `server/` with your MongoDB URI and JWT secret before running the app.
+Create a `.env` file inside `server/` with your MongoDB URI, JWT secret, and port before running the app.
+
+### Backend
+```bash
+cd server
+npm install
+npm run dev
+```
+Runs on **http://localhost:5000**
+
+### Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+Runs on **http://localhost:5173**
 
 ## 👥 Team Members
 
