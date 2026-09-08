@@ -1,7 +1,23 @@
+import PageTitle from "../components/ui/PageTitle";
+import Card from "../components/ui/Card";
+
 const Dashboard = () => {
   return (
     <div className="page dashboard-page">
-      <h1>Dashboard Page</h1>
+      <PageTitle
+        title="Dashboard Page"
+        subtitle="Overview of your activity"
+      />
+
+      <Card
+        title="Appointments"
+        description="You have no upcoming appointments."
+      />
+
+      <Card
+        title="Notifications"
+        description="You have no new notifications."
+      />
     </div>
   );
 };

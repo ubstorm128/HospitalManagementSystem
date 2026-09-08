@@ -1,7 +1,11 @@
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer className="footer">
-      <p>Footer Placeholder</p>
+      <p>
+        © {year} Hospital Management System — Developed by Udit
+      </p>
     </footer>
   );
 };
