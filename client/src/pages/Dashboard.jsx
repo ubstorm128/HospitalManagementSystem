@@ -9,15 +9,17 @@ const Dashboard = () => {
         subtitle="Overview of your activity"
       />
 
-      <Card
-        title="Appointments"
-        description="You have no upcoming appointments."
-      />
+      <div className="card-grid">
+        <Card
+          title="Appointments"
+          description="You have no upcoming appointments."
+        />
 
-      <Card
-        title="Notifications"
-        description="You have no new notifications."
-      />
+        <Card
+          title="Notifications"
+          description="You have no new notifications."
+        />
+      </div>
     </div>
   );
 };

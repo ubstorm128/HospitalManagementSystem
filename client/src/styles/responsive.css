@@ -1,0 +1,21 @@
+/* Tablet */
+@media (max-width: 1024px) {
+  .page {
+    padding: 1.25rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .page-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.9rem;
+  }
+}
