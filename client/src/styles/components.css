@@ -2,6 +2,15 @@
   padding: 1.5rem;
 }
 
+.page-title-badge {
+  font-size: 0.9rem;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
 .navbar,
 .footer {
   padding: 1rem;
@@ -100,4 +109,13 @@
   text-align: center;
   padding: 2rem;
   font-style: italic;
+}
+
+.input-field {
+  padding: 0.5rem;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  font-family: var(--font-family);
+  display: block;
+  margin: 1rem 0;
 }

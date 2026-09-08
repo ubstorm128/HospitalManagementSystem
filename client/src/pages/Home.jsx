@@ -1,4 +1,5 @@
 import PageTitle from "../components/ui/PageTitle";
+import Welcome from "../components/ui/Welcome";
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 
@@ -9,6 +10,8 @@ const Home = () => {
         title="Home Page"
         subtitle="Welcome to the Hospital Management System"
       />
+
+      <Welcome userName="Udit" projectName="Hospital Management System" />
 
       <Card
         title="Get Started"
