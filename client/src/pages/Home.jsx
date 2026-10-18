@@ -369,11 +369,12 @@ export default function Home() {
           {/* Genuine interface fragment with data-ui attribute */}
           <div data-ui="ledger-preview" className="motion-reveal motion-delay-4" style={{
             backgroundColor: 'var(--color-background)',
-            borderRadius: 'var(--radius-sm)',
-            overflow: 'hidden'
+            borderRadius: 'var(--radius-md)',
+            padding: '1.25rem',
+            border: '1px solid var(--color-border)'
           }}>
-            <div className="table-responsive">
-              <table className="table" style={{ margin: 0 }}>
+            <div className="table-wrapper">
+              <table className="data-table">
                 <thead>
                   <tr>
                     <th>Patient Identifier</th>
@@ -385,25 +386,25 @@ export default function Home() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td style={{ fontWeight: 600 }}>P-2026-0814</td>
+                    <td className="tabular-nums" style={{ fontWeight: 600 }}>P-2026-0814</td>
                     <td>Cardiology & Cardiovascular</td>
                     <td>Dr. Ananya Sharma</td>
                     <td>Urgent Triage (Chest Pain)</td>
                     <td><span className="badge badge-pending">Consulting</span></td>
                   </tr>
                   <tr>
-                    <td style={{ fontWeight: 600 }}>P-2026-0815</td>
+                    <td className="tabular-nums" style={{ fontWeight: 600 }}>P-2026-0815</td>
                     <td>Orthopedics & Joint Care</td>
                     <td>Dr. Rajesh Verma</td>
                     <td>Post-Op Rehabilitation</td>
-                    <td><span className="badge badge-confirmed">Scheduled</span></td>
+                    <td><span className="badge badge-scheduled">Scheduled</span></td>
                   </tr>
                   <tr>
-                    <td style={{ fontWeight: 600 }}>P-2026-0816</td>
+                    <td className="tabular-nums" style={{ fontWeight: 600 }}>P-2026-0816</td>
                     <td>Pediatrics & Adolescent</td>
                     <td>Dr. Priya Nair</td>
                     <td>Immunization Schedule</td>
-                    <td><span className="badge badge-confirmed">Completed</span></td>
+                    <td><span className="badge badge-completed">Completed</span></td>
                   </tr>
                 </tbody>
               </table>
