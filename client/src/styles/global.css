@@ -1,9 +1,46 @@
 :root {
-  --color-primary: #2563eb;
-  --color-secondary: #64748b;
-  --color-background: #f8fafc;
-  --color-text: #1e293b;
-  --font-family: "Segoe UI", sans-serif;
+  /* CareLedger Clinical Palette: Frost Canvas, Surgical Slate & Deep Teal */
+  --color-primary: #006672;
+  --color-primary-hover: #004d56;
+  --color-secondary: #485c69;
+  --color-background: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #edf2f5;
+  --color-surface-muted: #e2e8ec;
+  --color-surface-active: #d6e2e8;
+
+  --color-text: #101c24;
+  --color-text-muted: #536471;
+  --color-border: #dfe5ea;
+  --color-border-input: #c5d0d8;
+  --color-input-bg: #ffffff;
+
+  --color-error: #b91c1c;
+  --color-error-bg: #fef2f2;
+  --color-error-text: #7f1d1d;
+
+  --color-success: #047857;
+  --color-success-bg: #ecfdf5;
+  --color-success-text: #064e3b;
+
+  --color-warning: #b45309;
+  --color-warning-bg: #fffbeb;
+  --color-warning-text: #78350f;
+
+  /* Typography: Zilla Slab for Headings and DM Sans for Interface and Ledger */
+  --font-display: "Zilla Slab", Georgia, serif;
+  --font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
+  /* Motion Tokens */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+  --duration-fast: 150ms;
+  --duration-base: 240ms;
+  --duration-enter: 450ms;
 }
 
 * {
@@ -16,4 +53,58 @@ body {
   font-family: var(--font-family);
   background-color: var(--color-background);
   color: var(--color-text);
+  line-height: 1.55;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-text);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+::selection {
+  background: rgba(0, 102, 114, 0.15);
+  color: var(--color-text);
+}
+
+/* Tabular figures for clinical dates, times, room numbers, and financial rupees */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Accessible focus outlines */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Restrained clinical scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: #c5d0d8;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

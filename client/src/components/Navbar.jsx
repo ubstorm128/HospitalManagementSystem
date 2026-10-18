@@ -13,8 +13,9 @@ const Navbar = () => {
       <button
         className="navbar-toggle"
         onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle Navigation"
       >
-        ☰
+        Menu
       </button>
 
       <div className={`navbar-links ${menuOpen ? "open" : ""}`}>

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        © {year} Hospital Management System — Developed by Udit
+        © {year} CareLedger Hospital Management System. Open access institutional ledger.
       </p>
     </footer>
   );

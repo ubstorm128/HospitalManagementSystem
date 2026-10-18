@@ -1,0 +1,1109 @@
+{
+ "url": "http://localhost:4173/home",
+ "at": "2026-10-17T10:24:11.332Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.87,
+    0.33,
+    0.58,
+    0.75
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 35,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3345,
+     "screens": 3.7,
+     "words": 487,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "architectural-drawing-of-the-hospital-charters-t",
+      "central-hospital-of-maracaibo.jpg",
+      "architectural-drawing-for-a-chapel-and-hospital.",
+      "architectural-drawing-of-the-hospital-charters-t",
+      "greenwich-hospital-the-painted-hall.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "chars": 28,
+     "lines": 2,
+     "size": 68,
+     "vw": 4.7,
+     "font": "Zilla Slab",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 248,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "lines": 2,
+     "size": 68,
+     "font": "Zilla Slab"
+    },
+    "headings": [
+     {
+      "text": "Clinical Care. Exact Ledger.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 248,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Clinical Operating Standards",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 1009,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Four Clinical Pavilions",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 1487,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Triage Ledger",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 2559,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Zilla Slab",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      20,
+      32,
+      68
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 68,
+      "vw": 4.7,
+      "font": "Zilla Slab",
+      "text": "Clinical Care. Exact Ledger."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f6f8",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f6f8",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.22,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 111,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#101c24",
+       "top": 111,
+       "hsl": {
+        "h": 204,
+        "s": 0.38,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101c24",
+       "share": 0.61
+      },
+      {
+       "color": "#485c69",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#c7d5de",
+       "share": 0.02
+      },
+      {
+       "color": "#006672",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#006672",
+      "hsl": {
+       "h": 186,
+       "s": 1,
+       "l": 0.22
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 2,
+     "height": 37,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Open Clinical Workspace",
+      "Open Clinical Workspace",
+      "Explore Specialty Wings"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1487
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 87,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "zilla slab"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.93,
+    0.51,
+    0.47,
+    0.43,
+    0.47,
+    0.78
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 35,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5667,
+     "screens": 5.5,
+     "words": 487,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "architectural-drawing-of-the-hospital-charters-t",
+      "central-hospital-of-maracaibo.jpg",
+      "architectural-drawing-for-a-chapel-and-hospital.",
+      "architectural-drawing-of-the-hospital-charters-t",
+      "greenwich-hospital-the-painted-hall.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "chars": 28,
+     "lines": 2,
+     "size": 48,
+     "vw": 6.3,
+     "font": "Zilla Slab",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.58,
+     "top": 270,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "lines": 2,
+     "size": 48,
+     "font": "Zilla Slab"
+    },
+    "headings": [
+     {
+      "text": "Clinical Care. Exact Ledger.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 270,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Clinical Operating Standards",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 1514,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Four Clinical Pavilions",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2223,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Triage Ledger",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 4529,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Zilla Slab",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      20,
+      32,
+      48
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 48,
+      "vw": 6.3,
+      "font": "Zilla Slab",
+      "text": "Clinical Care. Exact Ledger."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f6f8",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f6f8",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.22,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 133,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#101c24",
+       "top": 755,
+       "hsl": {
+        "h": 204,
+        "s": 0.38,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101c24",
+       "share": 0.61
+      },
+      {
+       "color": "#485c69",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#c7d5de",
+       "share": 0.02
+      },
+      {
+       "color": "#006672",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#006672",
+      "hsl": {
+       "h": 186,
+       "s": 1,
+       "l": 0.22
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 2,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Open Clinical Workspace",
+      "Open Clinical Workspace",
+      "Explore Specialty Wings"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2223
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 109,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "zilla slab"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.51,
+    0.27,
+    0.12,
+    0.3,
+    0.49,
+    0.45,
+    0.39,
+    0.42,
+    0.42
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 35,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 714,
+     "h": 1544
+    },
+    "page": {
+     "height": 6925,
+     "screens": 4.5,
+     "words": 487,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "architectural-drawing-of-the-hospital-charters-t",
+      "central-hospital-of-maracaibo.jpg",
+      "architectural-drawing-for-a-chapel-and-hospital.",
+      "architectural-drawing-of-the-hospital-charters-t",
+      "greenwich-hospital-the-painted-hall.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "chars": 28,
+     "lines": 2,
+     "size": 48,
+     "vw": 6.7,
+     "font": "Zilla Slab",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.39,
+     "top": 404,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Clinical Care. Exact Ledger.",
+     "words": 4,
+     "lines": 2,
+     "size": 48,
+     "font": "Zilla Slab"
+    },
+    "headings": [
+     {
+      "text": "Clinical Care. Exact Ledger.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.7,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 404,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Clinical Operating Standards",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.5,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1656,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Four Clinical Pavilions",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.5,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 3210,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Triage Ledger",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.5,
+      "font": "Zilla Slab",
+      "weight": 600,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 5517,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Zilla Slab",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      20,
+      32,
+      48
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 17.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 48,
+      "vw": 6.7,
+      "font": "Zilla Slab",
+      "text": "Clinical Care. Exact Ledger."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f6f8",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f6f8",
+       "top": 0,
+       "hsl": {
+        "h": 210,
+        "s": 0.22,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101c24",
+       "share": 0.61
+      },
+      {
+       "color": "#485c69",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#c7d5de",
+       "share": 0.02
+      },
+      {
+       "color": "#006672",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#006672",
+      "hsl": {
+       "h": 186,
+       "s": 1,
+       "l": 0.22
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 2,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Open Clinical Workspace",
+      "Open Clinical Workspace",
+      "Explore Specialty Wings"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3210
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.15
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 218,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "zilla slab"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\desktop-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "D:\\PLACE\\BCA\\AAD\\Practicals\\HospitalManagementSystem\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

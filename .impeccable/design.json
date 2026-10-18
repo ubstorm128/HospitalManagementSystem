@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T09:44:00.000Z",
+  "title": "Design System: Hospital Management System",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Clinical Cobalt",
+        "canonical": "#2563eb",
+        "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#60a5fa", "#93c5fd", "#dbeafe"]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Sterile Slate",
+        "canonical": "#64748b",
+        "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#f1f5f9"]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Sterile Paper",
+        "canonical": "#f8fafc",
+        "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#e2e8f0", "#f1f5f9", "#f8fafc"]
+      },
+      "neutral-surface": {
+        "role": "neutral",
+        "displayName": "Clean Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#f1f5f9", "#ffffff"]
+      },
+      "neutral-text": {
+        "role": "neutral",
+        "displayName": "Deep Slate Charcoal",
+        "canonical": "#1e293b",
+        "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#e2e8f0"]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Alert Crimson",
+        "canonical": "#dc2626",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fee2e2"]
+      },
+      "success": {
+        "role": "success",
+        "displayName": "Clinical Emerald",
+        "canonical": "#047857",
+        "tonalRamp": ["#022c22", "#064e3b", "#065f46", "#047857", "#059669", "#10b981", "#34d399", "#d1fae5"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles and primary dashboard metric counters."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Card headers, modal titles, and section dividers."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Table headers, metric descriptions, and group titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Main data records, form entries, and patient details."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, status badges, and table headers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 3px rgba(37, 99, 235, 0.15)",
+        "purpose": "High-contrast accessibility focus outline."
+      },
+      {
+        "name": "modal-elevation",
+        "value": "0 4px 24px rgba(0, 0, 0, 0.08)",
+        "purpose": "Floating dialog and confirmation overlay depth."
+      }
+    ],
+    "motion": [
+      {
+        "name": "fade-fast",
+        "value": "150ms ease",
+        "purpose": "Standard interactive hover and focus feedback."
+      },
+      {
+        "name": "entry-fade",
+        "value": "200ms ease",
+        "purpose": "Notice and alert banner appearance."
+      }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "600px" },
+      { "name": "tablet", "value": "1024px" },
+      { "name": "desktop", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action button for submitting forms and booking appointments.",
+      "html": "<button class=\"ds-btn-primary\">Confirm Appointment</button>",
+      "css": ".ds-btn-primary { background: #2563eb; color: #ffffff; padding: 8px 16px; border: none; border-radius: 4px; font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: background 150ms ease, box-shadow 150ms ease; } .ds-btn-primary:hover { background: #1d4ed8; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action button for cancelling or navigating back.",
+      "html": "<button class=\"ds-btn-secondary\">Cancel</button>",
+      "css": ".ds-btn-secondary { background: transparent; color: #2563eb; padding: 8px 16px; border: 1px solid #2563eb; border-radius: 4px; font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: background 150ms ease; } .ds-btn-secondary:hover { background: rgba(37, 99, 235, 0.05); } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25); }"
+    },
+    {
+      "name": "Form Input Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Text input field with clear focus outline and label.",
+      "html": "<div class=\"ds-field-group\"><label class=\"ds-field-label\">Patient Full Name <span class=\"ds-req\">*</span></label><input type=\"text\" class=\"ds-input\" placeholder=\"e.g. John Doe\" /></div>",
+      "css": ".ds-field-group { display: flex; flex-direction: column; gap: 4px; font-family: 'Segoe UI', -apple-system, sans-serif; } .ds-field-label { font-size: 0.85rem; font-weight: 600; color: #374151; } .ds-req { color: #dc2626; } .ds-input { padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.95rem; background: #f9fafb; color: #1e293b; outline: none; transition: border-color 150ms ease, box-shadow 150ms ease; } .ds-input:focus { border-color: #2563eb; background: #ffffff; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }"
+    },
+    {
+      "name": "Operational Card",
+      "kind": "card",
+      "refersTo": "card-container",
+      "description": "Flat-at-rest container for metrics, lists, and consultation records.",
+      "html": "<div class=\"ds-card\"><h3 class=\"ds-card-title\">Today's Appointments</h3><p class=\"ds-card-text\">18 scheduled consultations across 4 departments.</p></div>",
+      "css": ".ds-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; font-family: 'Segoe UI', -apple-system, sans-serif; } .ds-card-title { margin: 0 0 6px 0; font-size: 1.1rem; font-weight: 600; color: #1e293b; } .ds-card-text { margin: 0; font-size: 0.9rem; color: #64748b; }"
+    },
+    {
+      "name": "Status Pill Badge",
+      "kind": "chip",
+      "refersTo": "badge-pill",
+      "description": "Multi-signal status badge for appointments and invoices.",
+      "html": "<span class=\"ds-badge-confirmed\">● Confirmed</span>",
+      "css": ".ds-badge-confirmed { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; font-family: 'Segoe UI', -apple-system, sans-serif; background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; }"
+    },
+    {
+      "name": "Success Notice Banner",
+      "kind": "custom",
+      "refersTo": "card-container",
+      "description": "Confirmed notification banner for successful patient intake.",
+      "html": "<div class=\"ds-notice-success\">✓ Patient record saved successfully. ID: #PT-10492</div>",
+      "css": ".ds-notice-success { background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; padding: 12px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; font-family: 'Segoe UI', -apple-system, sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Clinical Ledger",
+    "overview": "The Hospital Management System interface is conceived as an uncompromising digital ledger designed for the rigorous demands of hospital front-desk receptionists, administrators, and doctors. It balances high-velocity data intake with calm, unmistakable clarity. In an operational healthcare environment where confusion costs critical time, the interface delivers immediate legibility, unambiguous hierarchy, and zero decorative fluff.\n\nThe aesthetic philosophy centers on Flat & Tonal Layering. Rather than relying on heavy drop shadows or decorative glassmorphism, depth and structure are established through crisp tonal containment—clean white workspaces resting on a sterile cool-slate background, framed by hairline 1px borders. Interactive elements communicate purpose through crisp contrast, deliberate keyboard focus states, and restrained micro-transitions.",
+    "keyCharacteristics": [
+      "Zero Decorative Fluff: No gradients, cartoon mascots, blur spheres, or non-functional animations.",
+      "Tonal Contrast Over Shadows: Flat-at-rest surfaces separated by hairline structural borders and tonal depth.",
+      "High Scanability: Monospaced and tabular numerical figures for billing amounts, dates, and patient IDs.",
+      "Utilitarian Density: Compact, efficient form inputs and tables engineered for high-throughput entry."
+    ],
+    "rules": [
+      {
+        "name": "The Ten Percent Accent Rule",
+        "body": "Clinical Cobalt (#2563eb) is strictly confined to ≤10% of any screen viewport. Its authority and guidance value depend on its scarcity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Multi-Signal Status Rule",
+        "body": "Status indicators must never rely on color alone. Every appointment status, bed status, and billing receipt must combine color with explicit text labels and clear shape cues.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "All timestamps, appointment dates, room numbers, and financial billing figures must be rendered with tabular numbers (font-variant-numeric: tabular-nums) to ensure vertical alignment across data columns.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-At-Rest Rule",
+        "body": "Tables, cards, and input fields never use drop shadows in their default resting state. Tonal boundary lines deliver cleaner scanability without optical clutter.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use tabular figures (font-variant-numeric: tabular-nums) for all numbers, dates, times, and currency amounts.",
+      "Do maintain a strict 4px/8px spatial rhythm across all layouts, margins, and paddings.",
+      "Do provide clear focus rings (0 0 0 3px rgba(37, 99, 235, 0.15)) for full keyboard accessibility during data intake.",
+      "Do pair color changes with text labels and status icons for all medical, appointment, and billing states.",
+      "Do keep cards and tables flat at rest, utilizing 1px borders and white-on-slate contrast for visual boundaries."
+    ],
+    "donts": [
+      "Don't use decorative gradients, glassmorphism, or floating blur orbs anywhere in the interface.",
+      "Don't use heavy drop shadows on resting data cards or table rows.",
+      "Don't allow accent color coverage to exceed 10% of any viewport.",
+      "Don't create borderless, unpadded tables that mimic raw spreadsheet clutter.",
+      "Don't hide critical actions (Save, Cancel, Book Appointment) behind nested menus or ambiguous icons without labels."
+    ]
+  }
+}
