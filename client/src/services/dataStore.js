@@ -269,10 +269,10 @@ const INITIAL_BILLS = [
 ];
 
 const INITIAL_USERS = [
-  { id: 'USR-01', name: 'Administrator Udit', email: 'admin@hospital.com', password: 'admin', role: 'admin' },
-  { id: 'USR-02', name: 'Rima Barman (Reception)', email: 'reception@hospital.com', password: 'reception', role: 'receptionist' },
+  { id: 'USR-01', name: 'Administrator', email: 'admin@hospital.com', password: 'admin', role: 'admin' },
+  { id: 'USR-02', name: 'Rima Barman', email: 'reception@hospital.com', password: 'reception', role: 'receptionist' },
   { id: 'USR-03', name: 'Dr. Rajesh Sharma', email: 'doctor.sharma@hospital.com', password: 'doctor', role: 'doctor' },
-  { id: 'USR-04', name: 'John Doe (Patient)', email: 'patient@hospital.com', password: 'patient', role: 'patient' }
+  { id: 'USR-04', name: 'John Doe', email: 'patient@hospital.com', password: 'patient', role: 'patient' }
 ];
 
 // Helper to get or seed storage
