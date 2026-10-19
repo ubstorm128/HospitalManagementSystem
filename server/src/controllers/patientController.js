@@ -1,3 +1,5 @@
+const Patient = require('../models/Patient');
+
 const getPatients = (req, res) => {
     res.json({ success: true, message: 'Get all patients' });
 };

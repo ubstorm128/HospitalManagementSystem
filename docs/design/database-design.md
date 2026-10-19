@@ -18,13 +18,18 @@ MongoDB collections and their key fields.
 | Field | Type | Description |
 |---|---|---|
 | _id | ObjectId | Unique identifier |
-| userId | ObjectId | Reference to `Users` |
-| name | String | Patient's full name |
-| age | Number | Patient's age |
-| gender | String | Patient's gender |
-| contact | String | Phone number |
-| address | String | Residential address |
-| medicalHistory | Array | Past conditions / notes |
+| userId | ObjectId | Reference to `Users` (optional) |
+| fullName | String | Patient's full name (min 3 characters) |
+| dob | Date | Date of birth (not in the future) |
+| gender | String | `Male` \| `Female` \| `Other` |
+| contactNumber | String | 10-digit phone number |
+| email | String | Patient's email address |
+| address | String | Residential address (min 10 characters) |
+| bloodGroup | String | `A+` \| `A-` \| `B+` \| `B-` \| `AB+` \| `AB-` \| `O+` \| `O-` |
+| emergencyName | String | Emergency contact's name |
+| emergencyNumber | String | Emergency contact's 10-digit phone number |
+| medicalHistory | Array | Past conditions / notes (defaults to empty) |
+| createdAt, updatedAt | Date | Added automatically by Mongoose |
 
 ## Doctors
 
