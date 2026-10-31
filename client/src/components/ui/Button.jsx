@@ -1,7 +1,13 @@
-const Button = ({ children, onClick, type = "button" }) => {
+import React from "react";
+
+const Button = ({ text, onClick, type = "button", variant = "primary" }) => {
   return (
-    <button className="btn" type={type} onClick={onClick}>
-      {children}
+    <button
+      type={type}
+      onClick={onClick}
+      className={`btn btn-${variant}`}
+    >
+      {text}
     </button>
   );
 };
